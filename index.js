@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 let employees = [];
 
 // *** CONFIGURATION - REPLACE WITH YOUR VALUES ***
-const TENANT_B_ID = "<TENANT_B_ID>"; // e.g., "abcd1234-5678-...etc"
-const API_APP_ID = "<API_CLIENT_ID_REGISTERED_IN_TENANT_B>"; // e.g., "1234abcd-5678-..." (App Registration Application ID in tenant B)
+const TENANT_B_ID = "9cce0e15-6053-428f-ba65-62f30ae53bd6"; //  "9cce0e15-6053-428f-ba65-62f30ae53bd6"
+const API_APP_ID = "935cc781-69d7-440f-aa23-114a6ab3007c"; // 935cc781-69d7-440f-aa23-114a6ab3007c  (App Registration Application ID in tenant B)
 const SCOPES = {
   read: `api://${API_APP_ID}/Employee.Read.All`,
   write: `api://${API_APP_ID}/Employee.Write.All`
